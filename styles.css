@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#main-doc {
+    max-width: 95%;
+    width: 90%;
+    border-left: 2px solid #000;
+}
+
+section {
+    padding: 1.5em;
+    border-bottom: 1px solid #000;
+}
+
+#introduction {
+    padding-top: 1em;
+}
+
+header {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.code {
+    padding: 0.8em;
+    margin: 1em;
+    background: linear-gradient(180deg, #f6e1e1, #f6e1e1);
+    width: 90%;
+    padding-left: 1em;
+}
+
+#navbar {
+    max-width: 40%;
+    min-width: 10%;
+    width: 30%;
+    overflow: hidden;
+}
+
+span {
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #000;
+}
+
+.page-content {
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #fd525245;
+}
+
+@media (max-width: 40%) and (min-width: 10%){
+    .page-content {
+        width: 30%;
+    }
+}
